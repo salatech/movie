@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: arial;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(5, 5, 68);
+    height: 64px;
+    width: 100%;
+    z-index: 10;
+    transition: top 0.2s linear;
+}
+header div.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header div.sub_media {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: var(--maxPrimaryPageWidth);
+    width: 100%;
+    padding: 0 40px;
+}
+header .logo {
+    display: block;
+    margin-right: 16px;
+    color: rgb(155, 193, 243);
+    font-weight: bolder;
+    font-size: x-large;
+}
+header a {
+    color: #fff;
+    font-weight: 600;
+}
+header div.nav_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-items: center;
+    overflow: visible;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+header li:first-child{
+    margin-left: 0;
+}
+header li{
+    margin-left: 30px;
+}
+header div.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+header div.flex ul {
+    justify-content: flex-end;
+}
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+header ul.primary li.translate, header ul.primary li.user a {
+    display: block;
+    padding: 4px 0;
+}
+header ul li.translate div {
+    width: 28px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 3px 5px;
+    transition: linear .1s;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+header ul li.translate div:hover{
+    border: 1px solid rgb(5, 5, 68);
+    background-color: white;
+    color: rgb(5, 5, 68);
+}
