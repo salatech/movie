@@ -11,9 +11,11 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/Index.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 <link rel="stylesheet" href="Index.css">
-    <title>Nigeria movie data base</title>
+    <title>Nigeria movie data</title>
 </head>
 <body>
    <header>
@@ -24,7 +26,12 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 NMDB
 </p>
 <ul>
-    <li>Movies</li>
+    <li id="movie">
+        Movie
+        <!-- <div>movie</div>
+        <div id="panel"> Hello</div> -->
+    </li>
+    
     <li>TVShows</li>
     <li>People</li>
     <li>More</li>
@@ -48,5 +55,40 @@ NMDB
 </div>
 </div>
    </header>
+   <section class="sub_header container-fluid p-5  ">
+<div class="title">
+<h2>
+    Welcome
+</h2>
+<p>
+    Millions of movies , TV shows people to discover.Explore now.
+</p>
+</div>
+<div class="search">
+  <form action="">
+      <label for="">
+          <input type="text" name="" id="search"  placeholder="Search for a movie, tv show, person......">
+      </label>
+  </form> 
+</div>
+   </section>
+   <div style="display: flex;" >
+       <div><p class="ms-5 mt-4 me-4" style="font-weight: bolder;"> What's Popular</p></div>
+      
+   <div class="ttl mt-3">
+
+       <button>
+On TV
+       </button>
+       <button> 
+   
+   
+        In Theater   
+       </button>
+    </div>
+   </div>
+   <section class="popular">
+
+   </section>
 </body>
 </html>
