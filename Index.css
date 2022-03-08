@@ -1,8 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+  height: 200vh;
   font-family: "Lucida Sans Unicode";
+
 }
 header {
   display: flex;
@@ -188,9 +190,30 @@ span:hover {
     display: none;
   } */
   .popular{
-    
-    height: 30vh;
-    background-color: red;
+    height: 48vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    background-color: none;
+  }
+  ::-webkit-scrollbar{
+    width: 5px;
+
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:blue; 
+    border-radius: 10px;
+  }
+  .popular div{
+    margin-right: 20px;
+  }
+  .popular a{
+    outline: none;
+    text-decoration: none;
   }
   .ttl{
     height: 35px;
@@ -220,5 +243,11 @@ span:hover {
   }
   .title p {
     font-size: 15px;
+  }
+  .sub_header {
+    margin-top: 64px;
+    min-height: 250px;
+    height: calc(100vh / 2.5);
+    max-height: 300px;
   }
 }
