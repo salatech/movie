@@ -250,4 +250,7 @@ span:hover {
     height: calc(100vh / 2.5);
     max-height: 300px;
   }
+  .popular{
+    height: 240px;
+  }
 }
