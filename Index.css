@@ -69,10 +69,10 @@ header {
   top: 0;
   left: 0;
   background-color: rgb(5, 5, 68);
-  height: 64px;
+  height: 10vh;
   width: 100%;
   z-index: 10;
-  transition: top 0.2s linear;
+  transition: top 2s linear;
 }
 header div.content {
   width: 100%;
@@ -94,6 +94,7 @@ header .logo {
   color: rgb(155, 193, 243);
   font-weight: bolder;
   font-size: x-large;
+  margin-bottom: 0.5rem;
 }
 header a {
   color: #fff;
@@ -104,7 +105,7 @@ header div.nav_wrapper {
   justify-content: flex-start;
   flex-wrap: nowrap;
   align-items: center;
-  margin-top: auto;
+  margin-top: 10px;
   overflow: visible;
 }
 header .nav_wrapper ul {
@@ -169,8 +170,8 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   font-family: "Lucida Sans Unicode";
-  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMS1qai0wMi1nLWNvbmNyZXRlXzIuanBn.jpg?s=aVkGIk-g6ZEw9skw8Jg2DC1ofA8cVb-CfTfb1tXeinM");
-}
+  background-color: #0000009b;
+  }
 header{
   width: 100%;
  
@@ -195,18 +196,13 @@ header form{
 }
 #search{
   width: 200px;
-  height: 30px;
-  border: 1px solid black;
+  height: 55px;
   outline: none;
-  border-radius: 20px;
   padding-left: 15px;
   margin-top: 10px;
-background-position: 10px 10px;
-background-repeat: no-repeat;
-transition: width 0.4s ease-in-out;
-padding: 12px 20px 12px 40px;
-font-size: 15px;
-box-shadow: 00px 1px 1px 0px blue;
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid aliceblue;
 }
 #poster{
   height: 60vh;
@@ -260,10 +256,7 @@ h2{
   font-size: 20px;
 }
 
-#search:focus {
-  width: 80vw;
-  border-radius: 20px;
-}
+
 
 span:hover {
   background-color: rgb(228, 228, 228);
@@ -299,6 +292,9 @@ footer p{
   }
   .popular{
     height: 43vh;
+  }
+  header div.sub_media{
+    padding:0;
   }
   
 }
