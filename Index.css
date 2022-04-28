@@ -170,8 +170,8 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   font-family: "Lucida Sans Unicode";
-  background-color: #0000009b;
-  }
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMS1qai0wMi1nLWNvbmNyZXRlXzIuanBn.jpg?s=aVkGIk-g6ZEw9skw8Jg2DC1ofA8cVb-CfTfb1tXeinM");
+}
 header{
   width: 100%;
  
@@ -224,6 +224,8 @@ main div{
   height: 280px;
   margin: 19px 15px;
   background: rgb(29, 29, 29);
+  border-radius: 5px;
+  border: 3px solid #0000009b;
 }
 img{
   width: 100%;
