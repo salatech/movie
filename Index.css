@@ -222,6 +222,7 @@ main{
   justify-content: center;
 }
 main div{
+  width: 150px;
   height: 280px;
   margin: 19px 15px;
   background: rgb(29, 29, 29);
