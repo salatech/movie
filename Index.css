@@ -18,6 +18,7 @@
 .title h2 {
   font-size: 35px;
   font-weight: bold;
+  font-family: monospace;
 }
 .title p {
   font-size: 20px;
@@ -221,7 +222,6 @@ main{
   justify-content: center;
 }
 main div{
-  width: 150px;
   height: 280px;
   margin: 19px 15px;
   background: rgb(29, 29, 29);
