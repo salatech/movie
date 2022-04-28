@@ -91,10 +91,11 @@ header div.sub_media {
 }
 header .logo {
   margin-right: 16px;
-  color: rgb(155, 193, 243);
+  color: aliceblue;
   font-weight: bolder;
   font-size: x-large;
   margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
 header a {
   color: #fff;
@@ -202,7 +203,7 @@ header form{
   margin-top: 10px;
   background-color: transparent;
   color: aliceblue;
-  border: 1px solid aliceblue;
+  border-left: 1px solid aliceblue;
 }
 #poster{
   height: 60vh;
