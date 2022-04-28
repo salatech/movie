@@ -217,6 +217,9 @@ header form{
 }
 #demo{
   color: rgb(169, 209, 245);
+  font-weight: 600;
+  font-family: monospace;
+  font: 16px;
 }
 main{
   width: 100%;
